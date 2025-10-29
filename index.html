@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Link do CSS-->
+        <link rel="stylesheet" href="styles.css" />
+
+        <!-- Titulo do site-->
+        <title> Portfólio - Bryseida Lima </title>
+
+        <!-- Favicon do site-->
+        <link rel="shortcut icon" href="assests/favicon.ico" type="image/x-icon" />
+
+        <!-- Fontes Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Sora:wght@100..800&display=swap"
+          rel="stylesheet"
+        />
+
+        <!-- Biblioteca de ícones-->
+        <link
+          rel="'stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
+    </head>
+
+    <body>
+
+      <!-- Cabeçalho e navegação-->
+      <header>
+        <div class="container nav-wrapper">
+          <h1 class="logo">Bryseida Lima<span class="realce"> DEV</span></h1>
+          
+          <!-- Menu mobile com checkbox-->
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+          <nav class="navbar">
+            <a href="#sobre">Sobre</a>
+            <a href="#skills">Skills</a>
+            <a href="#github">GitHub</a>
+            <a href="#contato">Contato</a>
+          </nav>
+        </div>
+      </header>
+
+      <!-- HERO - Sessão de boas - vindas com animação de texto -->
+      <section class="hero">
+
+        <div class="container hero-grid">
+          <div class="hero-img">
+            <img
+              src="assets/imgs/foto-perfil.jpg"
+              alt="Foto de perfil"
+              class="profile-img"
+            />  
+          </div>
+
+          <div class="hero-text">
+            <h2><span class="typed-text" id="typed"></span></h2>
+            <p>
+              Olá! Eu sou Bryseida Lima, uma desenvolvedora iniciante full-stack apaixonada por
+              criar experiências digitais incríveis. Bem-vindo ao meu
+              portfólio!
+            </p>
+          </div>  
+        </div>        
+      </section>
+
+      <!-- Sobre mim-->
+      <section id="Sobre" class="section">
+        <div class="container about-text">
+          <h2 class="section-title">Sobre Mim</h2>
+          <p class="section-text">
+            Sou uma desenvolvedora full-stack iniciante com uma paixão por criar soluções digitais inovadoras. Tenho experiência em HTML, CSS, JavaScript e estou constantemente aprendendo novas tecnologias para aprimorar minhas habilidades. Adoro trabalhar em projetos desafiadores que me permitem crescer como profissional e contribuir para o sucesso da equipe.
+          </p>
+          <p class="section-text">
+            Quando não estou codificando, gosto de explorar novas tendências em tecnologia, participar de hackathons e colaborar com outros desenvolvedores em projetos open-source. Estou sempre em busca de oportunidades para expandir meu conhecimento e fazer a diferença no mundo da tecnologia. 
+          </p>
+          <p class="section-text">
+            Vamos construir algo incrível juntos!  
+          </p>   
+        </div>
+      </section> 
+
+      <!-- HABILIDADES / STACKS (Cards)-->
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Skills</h2>
+
+          <div class="skills-grid">
+
+            <!--Cada "skill-card" representa uma habilidade com ícone -->
+            <div class="skill-card">
+              <i class="devicon-html5-plain colored"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-css3-plain colored"></i>
+              <span>CSS3</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-javascript-plain colored"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-typescript-plain colored"></i>
+              <span>TypeScript</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-react-original colored"></i>
+              <span>React</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-tailwindcss-plain colored"></i>
+              <span>Tailwind</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-sass-original colored"></i>
+              <span>Sass</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-git-plain colored"></i>
+              <span>Git</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-github-original"></i>
+              <span>GitHub</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-figma-plain colored"></i>
+              <span>Figma</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projetos-->
+      <section id="github" class="section">
+       <div class="container">
+         <h2 class="section-title">Meus códigos no GitHub</h2>
+         <p class="section-subtitle">Tô começando minha jornada como dev e já estou praticando bastante! No meu GitHub você encontra exercícios, mini projetos e experiências enquanto aprendo e evoluo.</p>
+         <a href="https://github.com/BryseidaL" target="_blank" class="btn btn-primary">
+           <i class="devicon-github-original"></i> Ver meu GitHub
+         </a>
+       </div>
+      </section>
+      
+      <!-- Contato -->
+        <section id="contato" class="section">
+          <div class="container contact-card">
+            <h2>Contato</h2>
+            <p>Me chama no LinkedIn ou manda um e-mail 😊</p>
+
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/bryseidalima/" class="btn-social">
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+              <a href="mailto: lizebryseidalima@gmail.com" class="btn-social">
+                <i class="fas fa-envelope"></i> E-mail 
+              </a>
+            </div>
+          </div>  
+        </section>
+
+        <!-- Rodapé-->
+        <footer>
+          <p>   
+            Template criado por Bryseida Lima 🦋
+          </p>  
+        </footer>
+
+        <!-- Script de animação de texto-->
+        <script>
+          const text = "Hello, World!";
+          const typedE1 = document.getElementById("typed");
+          
+          let i = 0;
+          function digitar () {
+            if (i < text.length) {
+              typedE1.innerHTML += text.charAt(i);
+              i++;
+              setTimeout(digitar, 120);
+            }
+          }
+
+          window.addEventListener('DOMContentLoaded', digitar);
+        </script>
+    </body>
+</html>
